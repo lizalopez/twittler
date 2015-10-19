@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="jquery.js"></script>
-    <script src="data_generator.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2:400,700italic,500' rel='stylesheet' type='text/css'>
+    <title>Liza's Twittler</title>
+      <script src="jquery.js"></script>
+      <script src="data_generator.js"></script>
+      <link rel="stylesheet" href="main.css" />
+    <script src="behavior.js"></script>
   </head>
   <body>
-    <script>
-
-      $(document).ready(function(){
-        var $body = $('body');
-        $body.html('');
-
-        var index = streams.home.length - 1;
-        while(index >= 0){
-          var tweet = streams.home[index];
-          var $tweet = $('<div></div>');
-          $tweet.text('@' + tweet.user + ': ' + tweet.message);
-          $tweet.appendTo($body);
-          index -= 1;
-        }
-
-      });
-
-    </script>
+  <!-- Header -->
+    <header class="primary header">       
+      
+    </header>
   </body>
 </html>
