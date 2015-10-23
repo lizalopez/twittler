@@ -106,6 +106,7 @@ section {
 }
 .sideBox {
   bottom: 100px;
+  right: 30px;
   height: 120px;
   font-size: 20px;
   font-family: 'Exo 2', sans-serif;
